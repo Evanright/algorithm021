@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Mininum {
     /**
-     * 433. 最小基因变化
+     * 433. 最小基因变化 //广度优先遍历
      */
     public int minMutation(String start, String end, String[] bank) {
         Set<String> bankSet = new HashSet<String>(Arrays.asList(bank));
