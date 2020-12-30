@@ -24,13 +24,15 @@ public class LastStone {
 
     public static int lastStoneWeight1(int[] stones) {
 
-        Comparator<Integer> comparator = new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return (o2 - o1);
-            }
-        };
-        PriorityQueue<Integer> pq = new PriorityQueue<>(comparator);
+//        Comparator<Integer> comparator = new Comparator<Integer>() {
+//            @Override
+//            public int compare(Integer o1, Integer o2) {
+//                return (o2 - o1);
+//            }
+//        };
+        PriorityQueue<Integer> pq = new PriorityQueue<>(
+                (o1, o2) -> o2-o1
+        );
         for(Integer stone: stones){
             pq.add(stone);
         }
