@@ -1,5 +1,6 @@
-
-
+/**
+ * 计算岛屿数量，深度优先遍历
+ */
 public class NumberOfIslands {
     public static int numIslands(char[][] grid) {
         int h = grid.length;
