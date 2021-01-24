@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * 单词接龙
  */
-public class WordLadder {
+public class WordLadder2 {
     /**
      * BFS
      */
