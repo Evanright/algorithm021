@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * 213. 打家劫舍 II
- * 使用动太规划
+ * 使用动态规划
  */
 public class HouseRobber {
     /**
