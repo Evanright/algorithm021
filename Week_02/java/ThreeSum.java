@@ -19,9 +19,6 @@ public class ThreeSum {
 
     public static void sumSub(int target, int start, int end, int[] nums, List<List<Integer>> rst){
         while(start<end){
-            System.out.println("target:"+target);
-            System.out.println("start:"+start+" startNum:"+nums[start]);
-            System.out.println("end:"+end+" endNum:"+nums[end]);
             int tmp = nums[start]+nums[end]+target;
             if(tmp==0){
                 List<Integer> singleRst = Arrays.asList(target,nums[start],nums[end]);
